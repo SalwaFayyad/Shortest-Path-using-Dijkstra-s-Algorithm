@@ -3,11 +3,11 @@ Data Structure project to find the shortest path between cities using Dijkstra's
 ## Description
 This program is designed to implement Dijkstra's algorithm for determining the shortest path between two points within a graph representing cities. The input file, "segments.txt," contains pertinent information regarding the roads linking cities and towns, including the respective distances. The program constructs a graph based on this data, enabling users to identify the shortest route between any two specified cities.
 ## Implementation Details
-- Reads the input file "segments.txt" and loads the road data.
+- Reads the input file "Cities.txt" and loads the road data.
 - Constructs a graph representing the cities and towns with roads as edges.
 - Implements Dijkstra's algorithm to find the shortest path between two input points.
-- Prints the route of the shortest distance to a file named "route.txt".
-- Allows the user to perform multiple shortest path calculations for different pairs of cities/towns.
+- Prints the route of the shortest distance to a file named "shortest_path.txt".
+- Allows the user to perform multiple shortest path calculations for different pairs of cities.
 - Provides a menu-driven interface for ease of use.
 ## Usage
 - Compile the program.
